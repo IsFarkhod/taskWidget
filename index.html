@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <main>
+        <button class="send-btn" id="openModalWindow">
+            Получить код упаковки
+        </button>
+
+
+
+        <div class="modal-window-back hide" id="modalWindow">
+            <div class="modal-window">
+                <p class="title" id="closeModalWindow">Закрыть</p>
+                <input class="modal-window-input" type="text" placeholder="Введите название продукта"
+                    name="product_name" id="inputModalWindow" />
+                <button class="modal-window-btn" id="buttonSearch">Найти</button>
+                <p id="result"></p>
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
